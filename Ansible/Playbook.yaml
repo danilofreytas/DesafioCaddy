@@ -2,5 +2,5 @@
 # tasks file for Tomcat
 ## Setup de configuração do Rhel8
 - include: install_docker.yaml
-
+- include: deploy_caddy.yaml
 

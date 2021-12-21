@@ -1,0 +1,18 @@
+---
+- hosts: ansible_nodes
+  become: yes
+  become_method: sudo
+  tasks:
+
+  
+    - name: Pull default Docker image
+      docker_image:
+        name: caddy
+        source: pull
+    
+    - name: Create containers caddy
+      docker_container:
+        name: "caddy"
+        image: "caddy"
+        command: "sudo docker run -d -p 3001:80 --name caddy -v /site:/srv/index.html -v caddy_data:/data -v caddy_config:/config caddy caddy file-server --browse"
+        state: present
