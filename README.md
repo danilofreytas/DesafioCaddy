@@ -7,9 +7,10 @@ A realização desta tarefa foi um pouco complicada devido a falta de tempo háb
 
 Pontos de melhorias:
  - Codigo: deixar a execução e subida da IAC mais perfomatica,
- - subir a aplicação em dockerfile, para realizar o redeploy, caso necessário,
+ - subir a aplicação em dockerfile ou em dockercompose, para realizar o redeploy, caso necessário,
  - criar armazenamento EFS ou S3 apontando ao endpoit,
  - Implementação de CI/CD;
+ 
  
  A realização deste teste me fez perceber o quanto eu estava enferrujado com a utilização de docker, me deixando com mais vontade retornar a atuar com esta cultura.
  
