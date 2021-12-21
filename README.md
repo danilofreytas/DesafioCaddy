@@ -21,7 +21,9 @@ para teste local executar o colando curl:
 
 curl http://localhost:3001
 
+Teste via IP Publico:
 
+http://3.88.115.210:3001/
 
 Pontos de melhorias:
  - mostar tela "Hello World"
