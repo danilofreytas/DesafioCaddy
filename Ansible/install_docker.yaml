@@ -26,6 +26,7 @@
             - lsb-release
             - gccgo-go
             - net-tools
+            - docker-compose
 
     - name: Add Docker GPG apt Key
       apt_key:
