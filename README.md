@@ -2,6 +2,7 @@
 criação de IAC para deploy caddy
 
 Esta IAC foi desenvolvida como desafio para mostrar as habilidades com as ferramentas de DevOps.
+
 A realização desta tarefa foi um pouco complicada devido a falta de tempo hábil para me dedicar a realização, também encontrei problemas com o docker, pois faz alguns meses que não atuo com a ferramenta.
 
 Pontos de melhorias:
