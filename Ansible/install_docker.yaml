@@ -48,15 +48,3 @@
     - name: Install Docker Module for Python
       pip:
         name: docker
-
-    - name: Pull default Docker image
-      docker_image:
-        name: caddy
-        source: pull
-    
-    - name: Create containers caddy
-      docker_container:
-        name: "caddy"
-        image: "caddy"
-        command: "sudo docker run -d -p 3001:80 --name caddy -v /site:/srv/index.html -v caddy_data:/data -v caddy_config:/config caddy caddy file-server --browse"
-        state: present
