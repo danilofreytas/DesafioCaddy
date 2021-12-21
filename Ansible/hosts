@@ -1,0 +1,2 @@
+[ansible_nodes]
+172.31.85.112 ansible_ssh_user=danilo.reis

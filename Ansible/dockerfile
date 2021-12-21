@@ -1,0 +1,4 @@
+FROM caddy:2.4.6
+WORKDIR /srv
+ENV caddy_root=$
+RUN docker run -d -p 3001:3001 abiosoft/caddy
